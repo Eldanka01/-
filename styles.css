@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, serif;
+    overflow-x: hidden;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-primary {
+    background-color: #f0efeb;
+    min-height: 300px;
+    padding: 100px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+header img {
+    width: 500px;
+}
+
+#best-sellers .row>div {
+    width: 30%;
+}
+
+#best-sellers img {
+    width: 100%;
+}
+
+#sellers img {
+    width: 300px;
+}
+
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.row-circles > div {
+    width: 200px;
+    margin: 30px 0;
+}
+
+.circle-1 .circle {
+    background-color: aquamarine;
+}
+
+.circle-2 .circle {
+    background-color: aqua;
+}
+
+.circle-3 .circle {
+    background-color: yellowgreen;
+}
+
+.circle-4 .circle {
+    background-color: mediumpurple;
+}
+
+.circle-5 .circle {
+    background-color: blanchedalmond;
+}
+
+.circle-6 .circle {
+    background-color: darksalmon;
+}
+
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+header p {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.btn {
+    background: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 25px 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+section {
+    margin: 100px 0;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#best-sellers .row h2 {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+#sellers .row p {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 25px;
+}
+
+#faces {
+    margin-top: 300px;
+    min-height: 500px;
+}
+
+#faces .row p {
+    margin: 20px 0;
+}
+
+#faces img {
+    width: 100%;
+    margin-top: -200px;
+}
+
+#faces .row > div {
+    width: 25%;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.row input {
+    width: 45%;
+}
+
+form .btn {
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+footer .row {
+    align-items: start;
+}
+
+footer h3 {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.p {
+    padding: 80px;
+}
+
+.credit {
+    font-size: 14px;
+    line-height: 23px;
+}
